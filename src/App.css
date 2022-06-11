@@ -23,3 +23,9 @@ p {
   position: absolute;
   right: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .contain {
+    max-width: 90%;
+  }
+}
