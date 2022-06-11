@@ -90,11 +90,13 @@ export default function App() {
           value = {toDoItem}
           onChange={(e) => setToDoItem(e.target.value)}
         ></input>
-      </form>
-      <button 
+        <button 
         className="btn btn-primary my-3"
-        type="submit">Add Item
+        type="submit"
+        >Add Item
       </button>
+
+      </form>
     </div>
   );
 }
